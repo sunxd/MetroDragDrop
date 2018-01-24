@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="tian.net.dragdropdemo.MainActivity">
+
+    <!--<tian.net.dragdropdemo.MetroViewDemo
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+    <tian.net.dragdropdemo.MetroLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <tian.net.dragdropdemo.MetroView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimary">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"/>
+
+        </tian.net.dragdropdemo.MetroView>
+
+        <tian.net.dragdropdemo.MetroView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"/>
+
+
+        <tian.net.dragdropdemo.MetroView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            app:mode="1"/>
+
+        <tian.net.dragdropdemo.MetroView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorPrimaryDark"
+            app:mode="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="8dp"
+                android:background="@android:color/white"/>
+
+        </tian.net.dragdropdemo.MetroView>
+
+
+    </tian.net.dragdropdemo.MetroLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
